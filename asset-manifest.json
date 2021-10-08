@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/what_happened_mar-ket/static/css/main.a617e044.chunk.css",
+    "main.js": "/what_happened_mar-ket/static/js/main.164f49c6.chunk.js",
+    "main.js.map": "/what_happened_mar-ket/static/js/main.164f49c6.chunk.js.map",
+    "runtime-main.js": "/what_happened_mar-ket/static/js/runtime-main.8a2b084f.js",
+    "runtime-main.js.map": "/what_happened_mar-ket/static/js/runtime-main.8a2b084f.js.map",
+    "static/js/2.9c02ebc8.chunk.js": "/what_happened_mar-ket/static/js/2.9c02ebc8.chunk.js",
+    "static/js/2.9c02ebc8.chunk.js.map": "/what_happened_mar-ket/static/js/2.9c02ebc8.chunk.js.map",
+    "static/js/3.25aad12b.chunk.js": "/what_happened_mar-ket/static/js/3.25aad12b.chunk.js",
+    "static/js/3.25aad12b.chunk.js.map": "/what_happened_mar-ket/static/js/3.25aad12b.chunk.js.map",
+    "index.html": "/what_happened_mar-ket/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/what_happened_mar-ket/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.9c02ebc8.chunk.js.LICENSE.txt": "/what_happened_mar-ket/static/js/2.9c02ebc8.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/what_happened_mar-ket/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a2b084f.js",
+    "static/js/2.9c02ebc8.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.164f49c6.chunk.js"
+  ]
+}
