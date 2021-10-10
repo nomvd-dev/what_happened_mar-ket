@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StoryContainer = styled.div`
     position: relative;
     width: 100%;
-    background: #0565bb;
+    background: var(--quinary-color);
     padding: 150px 0;
     overflow: hidden;
     .story__mobile{
@@ -22,7 +22,7 @@ export const StoryH = styled.h2`
     font-size: 50px;
     font-weight: 800;
     text-transform: uppercase;
-    color: #fcd32a;
+    color: var(--senary-color);
     text-align: center;
     margin-bottom: 40px;
     letter-spacing: 5px;
@@ -35,7 +35,7 @@ export const StoryH = styled.h2`
 export const StoryP = styled.p`
     font-family: 'Noto Sans Korean', sans-serif;
     font-size: 16px;
-    color: #fcd32a;
+    color: var(--senary-color);
     text-align: center;
     margin: auto;
     margin-bottom: 80px;

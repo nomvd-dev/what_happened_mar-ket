@@ -24,7 +24,7 @@ export const BestProductH = styled.h2`
     font-size: 50px;
     font-weight: 800;
     text-transform: uppercase;
-    color: #f96400;
+    color: var(--tertiary-color);
     text-align: center;
     letter-spacing: 5px;
     @media screen and (max-width: 480px){
@@ -34,7 +34,7 @@ export const BestProductH = styled.h2`
 `
 export const BestProductP = styled.p`
     font-size: 20px;
-    color: #f96400;
+    color: var(--tertiary-color);
     width: 45%;
     margin: auto;
     margin-top: 50px;
@@ -82,9 +82,9 @@ export const BestProductRank = styled.img`
 export const BestProductLink = styled.div`
     font-size: 20px;
     font-weight: 800;
-    background: #fff;
+    background: var(--primary-color);
     width: 70%;
-    border: 3px solid #111111;
+    border: 3px solid var(--secondary-color);
     padding: 10px;
     display: flex;
     position: absolute;
@@ -104,9 +104,9 @@ export const BestProductLink = styled.div`
 `
 
 export const BestProductBtn = styled.button`
-    border: 0 solid #fff;
-    color: #fff;
-    background: #111;
+    border: 0 solid var(--primary-color);
+    color: var(--primary-color);
+    background: var(--secondary-color);
     width: 50px;
     height: 50px;
     border-radius: 50%;

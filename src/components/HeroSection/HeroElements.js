@@ -37,7 +37,7 @@ export const IntroContent = styled.div`
     justify-content: center;
     top: 0;
     padding-left: 160px;
-    color: #ffffff;
+    color: --primary-color;
     width: 100%;
     height: 100%;
     @media screen and (max-width: 480px){

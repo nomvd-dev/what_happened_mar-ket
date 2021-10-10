@@ -6,7 +6,6 @@ export const FooterContainer = styled.div`
     @media screen and (max-width: 414px){
         padding: 50px 20px;
     }
-    /* border-top: 2px solid #f4f4f4; */
 `
 
 export const FooterTop = styled.div`
@@ -14,7 +13,7 @@ export const FooterTop = styled.div`
     justify-content: space-between;
     width: 100%;
     padding: 50px 0;
-    border-top: 2px solid #f4f4f4;
+    border-top: 2px solid var(--quaternary-color);
     @media screen and (max-width: 414px){
         flex-direction: column;
         padding-bottom: 0;
@@ -50,7 +49,7 @@ export const FooterTopContent = styled.div`
 export const FooterTopH = styled.h4`
     font-size: 14px;
     font-weight: 600;
-    color: #111;
+    color: var(--secondary-color);
 `
 
 export const FooterTopList = styled.ul`
@@ -66,7 +65,7 @@ export const FooterTopItem = styled.li`
 `
 
 export const FooterBottom = styled.div`
-    border-top: 2px solid #f4f4f4;
+    border-top: 2px solid var(--quaternary-color);
     width: 100%;
     display: flex;
     padding-top: 20px;

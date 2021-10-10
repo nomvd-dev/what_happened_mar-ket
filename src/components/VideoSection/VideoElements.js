@@ -53,22 +53,19 @@ export const VideoDecor = styled.div`
 // Middle Decor: Top -> Bottom
 export const VideoContentImg = styled.img`
     display: block;
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-top: 60px;
-    z-index: 100;
+    z-index: 30;
     @media screen and (max-width: 414px){
         width: 100%;
     }
 `
 export const VideoDecorImg2 = styled.img`
     position: absolute;
-    top: 1300px;
-    left: 1130px;
+    bottom: 270px;
+    left: 1200px;
     @media screen and (max-width: 414px){
-        /* width: 10%;
-        top: 530px;
-        left: 170px; */
         display: none;
     }
 `
@@ -95,9 +92,8 @@ export const VideoDecorImg4 = styled.img`
 `
 export const VideoDecorImg3 = styled.img`
     position: absolute;
-    top: 1200px;
-    left: 220px;
-    z-index: 20;
+    top: 1300px;
+    left: 200px;
     @media screen and (max-width: 414px){
         width: 10%;
         left: -7px;
@@ -106,8 +102,9 @@ export const VideoDecorImg3 = styled.img`
 `
 export const VideoDecorImg1 = styled.img`
     position: absolute;
-    top: 1300px;
-    left: 350px;
+    top: 1400px;
+    left: 320px;
+    z-index: 20;
     @media screen and (max-width: 414px){
         display: none;
     }
@@ -137,19 +134,16 @@ export const VideoDecorImg6 = styled.img`
 export const VideoDecorImg9 = styled.img`
     position: absolute;
     top: 650px;
-    left: 1670px;
+    right: -170px;
     z-index: -2;
     @media screen and (max-width: 414px){
-        /* width: 20%;
-        top: 420px;
-        left: 325px; */
         display: none;
     }
 `
 export const VideoDecorImg8 = styled.img`
     position: absolute;
     top: 930px;
-    left: 1450px;
+    right: -200px;
     z-index: -1;
     @media screen and (max-width: 414px){
         width: 50%;
