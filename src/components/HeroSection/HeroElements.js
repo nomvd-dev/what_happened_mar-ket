@@ -51,7 +51,7 @@ export const IntroH = styled.h2`
     font-weight: 800;
     letter-spacing: 5px;
     text-transform: uppercase;
-    /* line-height: 1.2; */
+    color: var(--primary-color);
     padding-bottom: 60px;
     @media screen and (max-width: 1280px){
         font-size: 40px;
@@ -65,6 +65,7 @@ export const IntroP = styled.p`
     width: 40%;
     font-size: 20px;
     line-height: 1.75;
+    color: var(--primary-color);
     @media screen and (max-width: 1280px){
         font-size: 16px;
     }

@@ -6,7 +6,7 @@ export const SidebarContainer = styled.div`
     position: fixed;
     top: 100%;
     left: 0;
-    background-color: var(--secondary-color);
+    background-color: var(--septenary-color);
     display: flex;
     flex-direction: column;
     justify-content: space-around;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const IssueContainer = styled.div`
     width: 100%;
-    background: #fccb05;
+    background: var(--octonary-color);
     position: relative;
     padding: 150px 0;
     display: flex;
@@ -29,7 +29,7 @@ export const IssueH = styled.h2`
 `
 
 export const IssueP = styled.p`
-    font-family: 'Noto Sans Korean', sans-serif;
+    font-family: var(--secondary-font);
     width: 40%;
     font-size: 16px;
     text-align: center;
@@ -108,21 +108,21 @@ export const IssueContent = styled.div`
 `
 
 export const IssueWhpn = styled.div`
-    background: #ff5500;
+    background: var(--nonary-color);
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid #000;
+    border: 2px solid var(--secondary-color);
     @media screen and (max-width: 414px){
         padding: 30px 0;
-        border: 1px solid #fccb05;
+        border: 1px solid var(--octonary-color);
     }
 `
 export const IssueWhpnH = styled.h3`
     text-transform: uppercase;
-    color: #000;
+    color: var(--secondary-color);
     font-size: 55px;
     font-weight: 800;
     letter-spacing: 2px;
@@ -138,17 +138,17 @@ export const IssueWhpnImg = styled.img`
 `
 
 export const IssueCard = styled.div`
-    background: #000;
-    border: 1px solid #000;
+    background: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
     width: 100%;
     @media screen and (max-width: 414px){
-        border: 1px solid #fccb05;
+        border: 1px solid var(--octonary-color);
     }
 `
 export const IssueBrandClass = styled.h3`
     text-align: center;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--primary-color);
     padding: 30px 0;
     font-size: 32px;
     font-weight: 800;

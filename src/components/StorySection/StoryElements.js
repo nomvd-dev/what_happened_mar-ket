@@ -33,7 +33,7 @@ export const StoryH = styled.h2`
     }
 `
 export const StoryP = styled.p`
-    font-family: 'Noto Sans Korean', sans-serif;
+    font-family: var(--secondary-font);
     font-size: 16px;
     color: var(--senary-color);
     text-align: center;
@@ -94,7 +94,7 @@ export const StoryTitle = styled.h3`
     }
 `
 export const StoryDetail = styled.p`
-font-family: 'Noto Sans Korean', sans-serif;
+font-family: var(--secondary-font);
     font-size: 16px;
     margin: 40px 0;
     @media screen and (max-width: 414px){

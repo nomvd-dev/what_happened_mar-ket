@@ -48,8 +48,8 @@ export const FooterTopContent = styled.div`
 
 export const FooterTopH = styled.h4`
     font-size: 14px;
-    font-weight: 600;
-    color: var(--secondary-color);
+    font-weight: 800;
+    color: var(--septenary-color);
 `
 
 export const FooterTopList = styled.ul`
@@ -57,10 +57,11 @@ export const FooterTopList = styled.ul`
     font-size: 14px;
     margin-top: 20px;
     line-height: 1.75;
+    color: var(--secondary-color);
 `
 
 export const FooterTopItem = styled.li`
-    font-family: 'Noto Sans Korean', sans-serif;
+    font-family: var(--secondary-font);
     cursor: pointer;
 `
 
@@ -79,7 +80,8 @@ export const FooterBottom = styled.div`
 `
 
 export const FooterBottomLeft = styled.div`
-    font-family: 'Noto Sans Korean', sans-serif;
+    font-family: var(--secondary-font);
+    color: var(--denary-color);
     width: 50%;
     font-size: 14px;
     @media screen and (max-width: 414px){

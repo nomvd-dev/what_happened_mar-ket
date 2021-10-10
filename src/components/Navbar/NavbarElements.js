@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-    background-color: #111111;
+    background-color: var(--septenary-color);
     height: 80px;
     width: 100%;
     display: flex;
@@ -10,7 +10,7 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 50;
-    color: #ffffff;
+    color: var(--primary-color);
 `
 export const NavbarContainer = styled.div`
     display: flex;
@@ -27,7 +27,7 @@ export const NavHome = styled.a`
     font-weight: 600;
     cursor: pointer;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--primary-color);;
     @media screen and (max-width:480px){
         font-size: 20px;
     }
@@ -62,12 +62,12 @@ export const NavItem = styled.li`
         position: absolute;
         height: 30%;
         width: 1px;
-        background: #fff;
+        background: var(--primary-color);;
         top: 35%;
     }
 `
 
 export const NavLink = styled.a`
     text-decoration: none;
-    color: #ffffff;
+    color: var(--primary-color);;
 `
