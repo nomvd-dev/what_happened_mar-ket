@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/what_happened_mar-ket/static/css/main.d5cd59ad.chunk.css",
-    "main.js": "/what_happened_mar-ket/static/js/main.04025f13.chunk.js",
-    "main.js.map": "/what_happened_mar-ket/static/js/main.04025f13.chunk.js.map",
+    "main.js": "/what_happened_mar-ket/static/js/main.9b77117e.chunk.js",
+    "main.js.map": "/what_happened_mar-ket/static/js/main.9b77117e.chunk.js.map",
     "runtime-main.js": "/what_happened_mar-ket/static/js/runtime-main.7a606ea8.js",
     "runtime-main.js.map": "/what_happened_mar-ket/static/js/runtime-main.7a606ea8.js.map",
     "static/css/2.9afc9ae6.chunk.css": "/what_happened_mar-ket/static/css/2.9afc9ae6.chunk.css",
-    "static/js/2.907f53d9.chunk.js": "/what_happened_mar-ket/static/js/2.907f53d9.chunk.js",
-    "static/js/2.907f53d9.chunk.js.map": "/what_happened_mar-ket/static/js/2.907f53d9.chunk.js.map",
+    "static/js/2.2a0133db.chunk.js": "/what_happened_mar-ket/static/js/2.2a0133db.chunk.js",
+    "static/js/2.2a0133db.chunk.js.map": "/what_happened_mar-ket/static/js/2.2a0133db.chunk.js.map",
     "index.html": "/what_happened_mar-ket/index.html",
     "static/css/2.9afc9ae6.chunk.css.map": "/what_happened_mar-ket/static/css/2.9afc9ae6.chunk.css.map",
     "static/css/main.d5cd59ad.chunk.css.map": "/what_happened_mar-ket/static/css/main.d5cd59ad.chunk.css.map",
-    "static/js/2.907f53d9.chunk.js.LICENSE.txt": "/what_happened_mar-ket/static/js/2.907f53d9.chunk.js.LICENSE.txt",
+    "static/js/2.2a0133db.chunk.js.LICENSE.txt": "/what_happened_mar-ket/static/js/2.2a0133db.chunk.js.LICENSE.txt",
     "static/media/bes-bg.08b8b84f.png": "/what_happened_mar-ket/static/media/bes-bg.08b8b84f.png",
     "static/media/best-product-1.jpg": "/what_happened_mar-ket/static/media/best-product-1.b09dad1e.jpg",
     "static/media/best-product-2.jpg": "/what_happened_mar-ket/static/media/best-product-2.27c15263.jpg",
@@ -51,13 +51,14 @@
     "static/media/video-object-04.png": "/what_happened_mar-ket/static/media/video-object-04.b31cf70a.png",
     "static/media/video-object-08.png": "/what_happened_mar-ket/static/media/video-object-08.3e20ee46.png",
     "static/media/video.png": "/what_happened_mar-ket/static/media/video.90d18bab.png",
+    "static/media/window-mobile.png": "/what_happened_mar-ket/static/media/window-mobile.e54128be.png",
     "static/media/window.png": "/what_happened_mar-ket/static/media/window.b51fe54e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7a606ea8.js",
     "static/css/2.9afc9ae6.chunk.css",
-    "static/js/2.907f53d9.chunk.js",
+    "static/js/2.2a0133db.chunk.js",
     "static/css/main.d5cd59ad.chunk.css",
-    "static/js/main.04025f13.chunk.js"
+    "static/js/main.9b77117e.chunk.js"
   ]
 }
