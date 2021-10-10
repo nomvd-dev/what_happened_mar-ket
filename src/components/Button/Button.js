@@ -14,8 +14,15 @@ export const Button = styled.button`
         color: #fff;
         background: #000;
     }
-    @media screen and (max-width: 480px){
+    /* @media screen and (max-width: 480px){
         margin-top: 80px;
         margin-bottom: 100px;
+    } */
+    @media screen and (max-width: 414px){
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    @media screen and (max-width: 375px){
+        font-size: 10px;
     }
 `

@@ -13,7 +13,7 @@ export const BestProductContainer = styled.div`
     @media screen and (max-width: 480px){
         width: 100%;
         height: 100%;
-        padding: 60px 20px;
+        padding: 50px 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -28,7 +28,8 @@ export const BestProductH = styled.h2`
     text-align: center;
     letter-spacing: 5px;
     @media screen and (max-width: 480px){
-        font-size: 30px;
+        font-size: 25px;
+        letter-spacing: 2px;
     }
 `
 export const BestProductP = styled.p`
@@ -40,11 +41,12 @@ export const BestProductP = styled.p`
     margin-bottom: 75px;
     text-align: center;
     @media screen and (max-width: 480px){
-        width: 80%;
-        font-size: 16px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 1.5;
         text-align: center;
         margin-top: 30px;
-        /* margin-bottom: 55px; */
+        margin-bottom: 0;
     }
 `
 export const BestList = styled.div`
@@ -63,9 +65,9 @@ export const BestProductCard = styled.div`
     width: 100%;
     position: relative;
     @media screen and (max-width: 480px){
-        width: 80%;
+        width: 100%;
         margin: auto;
-        margin-bottom: 80px;
+        margin-top: 100px;
     }
 `
 export const BestProductImg = styled.img`
@@ -94,6 +96,11 @@ export const BestProductLink = styled.div`
     @media screen and (max-width: 480px){
         font-size: 16px;
     }
+    @media screen and (max-width: 414px){
+        font-size: 16px;
+        width: 80%;
+        left: 10%;
+    }
 `
 
 export const BestProductBtn = styled.button`
@@ -109,12 +116,9 @@ export const BestProductBtn = styled.button`
     @media screen and (max-width: 480px){
         font-size: 16px;
     }
-`
-
-export const BestSwiper = styled.div`
-    display: none;
-    @media screen and (max-width: 480px){
-        /* width: 100%; */
-        display: contents;
+    @media screen and (max-width: 414px){
+        font-size: 16px;
+        width: 40px;
+        height: 40px;
     }
 `

@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
     width: 100%;
     padding: 0 80px;
+    @media screen and (max-width: 414px){
+        padding: 50px 20px;
+    }
     /* border-top: 2px solid #f4f4f4; */
 `
 
@@ -12,17 +15,37 @@ export const FooterTop = styled.div`
     width: 100%;
     padding: 50px 0;
     border-top: 2px solid #f4f4f4;
+    @media screen and (max-width: 414px){
+        flex-direction: column;
+        padding-bottom: 0;
+    }
 `
 
-export const FooterTopLeft = styled.div``
+export const FooterTopLeft = styled.div`
+    @media screen and (max-width: 414px){
+        width: 100%;
+        .top__left{
+            width: 100%;
+        }
+    }
+`
 
 export const FooterTopRight = styled.div`
     display: flex;
     justify-content: space-between;
     width: 45%;
+    @media screen and (max-width: 414px){
+        flex-wrap: wrap;
+        width: 100%;
+    }
 `
 
-export const FooterTopContent = styled.div``
+export const FooterTopContent = styled.div`
+    @media screen and (max-width: 414px){
+        width: 50%;
+        margin-bottom: 50px;
+    }
+`
 
 export const FooterTopH = styled.h4`
     font-size: 14px;
@@ -38,6 +61,7 @@ export const FooterTopList = styled.ul`
 `
 
 export const FooterTopItem = styled.li`
+    font-family: 'Noto Sans Korean', sans-serif;
     cursor: pointer;
 `
 
@@ -48,15 +72,30 @@ export const FooterBottom = styled.div`
     padding-top: 20px;
     padding-bottom: 80px;
     justify-content: space-between;
+    @media screen and (max-width: 414px){
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
 `
 
 export const FooterBottomLeft = styled.div`
+    font-family: 'Noto Sans Korean', sans-serif;
     width: 50%;
     font-size: 14px;
+    @media screen and (max-width: 414px){
+        width: 100%;
+        align-items: justify;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
 `
 
 export const FooterBottomRight = styled.div`
     display: flex;  
+    @media screen and (max-width: 414px){
+        padding-top: 20px;
+    }
 `
 
 export const FooterBottomImg = styled.img`

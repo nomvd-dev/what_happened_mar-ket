@@ -5,12 +5,12 @@ export const ProductsContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 160px;
+    padding: 150px 160px;
     width: 100%;
-    margin: 150px 0;
+    /* margin: 150px 0; */
     @media screen and (max-width: 480px){
-        padding: 0 20px;
-        margin: 50px 0;
+        padding: 50px 20px;
+        /* margin: 50px 0; */
     }
 `
 export const ProductsList = styled.div`
@@ -29,7 +29,7 @@ export const ProductsList = styled.div`
 
 export const ProductCard = styled.div`
     width: 100%;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 `
 
 export const ProductImg = styled.img`
@@ -42,7 +42,11 @@ export const ProductImg = styled.img`
 export const ProductH = styled.h4`
     font-size: 18px;
     font-weight: 800;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
+    @media screen and (max-width: 480px){
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
 `
 
 export const ProductP = styled.div`
@@ -51,6 +55,9 @@ export const ProductP = styled.div`
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    @media screen and (max-width: 480px){
+        font-size: 12px;
+    }
 `
 
 export const ProductLike = styled.p`

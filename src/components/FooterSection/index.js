@@ -7,7 +7,7 @@ const FooterSection = () => {
             <FooterContainer>
                 <FooterTop>
                     <FooterTopLeft>
-                        <FooterTopContent>
+                        <FooterTopContent className="top__left">
                             <FooterTopH>what happened</FooterTopH>
                             <FooterTopList>
                                 <FooterTopItem>[공지] 개인 정보 처리 방침 변경 사전 안내</FooterTopItem>

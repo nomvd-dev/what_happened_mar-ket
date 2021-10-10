@@ -11,18 +11,14 @@ export const HeroBackground = styled.img`
     height: 100%;
     object-fit: contain;
     @media screen and (max-width: 480px){
-        object-fit: fill;
-        width: auto;
-        height: 600px;
+        width: 100%;
+        object-fit: cover;
     }
 `
 export const IntroBackground = styled.div`
     width: 100%;
     height: 100%;
     position: relative;
-    @media screen and (max-width: 480px){
-        height: 100vh;
-    }
 `
 export const IntroImage = styled.img`
     display: block;
@@ -30,7 +26,7 @@ export const IntroImage = styled.img`
     height: 100%;
     object-fit: contain;
     @media screen and (max-width: 480px){
-        height: 100vh;
+        height: 600px;
         object-fit: cover;
     }
 `
@@ -45,7 +41,7 @@ export const IntroContent = styled.div`
     width: 100%;
     height: 100%;
     @media screen and (max-width: 480px){
-        padding: 0 20px;
+        padding: 80px 20px;
         align-items: center;
         text-align: justify;
     }
@@ -61,7 +57,7 @@ export const IntroH = styled.h2`
         font-size: 40px;
     }
     @media screen and (max-width: 480px){
-        font-size: 30px;
+        font-size: 25px;
         padding-bottom: 20px;
     }
 `
@@ -73,7 +69,7 @@ export const IntroP = styled.p`
         font-size: 16px;
     }
     @media screen and (max-width: 480px){
-        font-size: 16px;
-        width: 80%;
+        font-size: 12px;
+        width: 100%;
     }
 `

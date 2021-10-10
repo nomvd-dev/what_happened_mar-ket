@@ -13,30 +13,30 @@ const IssueSection = () => {
                 <IssueDecor>
                     <IssueDecorImg1 src={require('../../img/news-object-01.png').default} />
                     <IssueDecorImg2 src={require('../../img/news-object-02.png').default}/>
-                    <IssueDecorImg3 src={require('../../img/news-object-03.png').default}/>
-                    <IssueDecorImg4 src={require('../../img/news-object-04.png').default}/>
-                    <IssueDecorImg5 src={require('../../img/news-object-05.png').default}/>
                 </IssueDecor>
                 <IssueContent>
-                    <IssueWhpn>
+                    <IssueWhpn className="whpn">
                         <IssueWhpnH>Whpn<br/>Issue</IssueWhpnH>
                         <IssueWhpnImg src={require('../../img/news-img-01.png').default} />
+                        <IssueDecorImg3 src={require('../../img/news-object-03.png').default}/>
                     </IssueWhpn>
-                    <IssueCard>
+                    <IssueCard className="b__brand">
                         <IssueBrandClass>B brand</IssueBrandClass>
                         <IssueBrandImg src={require('../../img/i1.png').default} />
+                        <IssueDecorImg4 src={require('../../img/news-object-04.png').default}/>
                     </IssueCard>
-                    <IssueCard>
+                    <IssueCard className="c__brand">
                         <IssueBrandClass>C brand</IssueBrandClass>
                         <IssueBrandImg src={require('../../img/i2.png').default} />
                     </IssueCard>
-                    <IssueCard style={{background: "#ff5500"}}>
+                    <IssueCard className="d__brand" style={{background: "#ff5500"}}>
                         <IssueBrandClass>D brand</IssueBrandClass>
                         <IssueBrandImg src={require('../../img/i3.png').default} />
                     </IssueCard>
-                    <IssueCard>
+                    <IssueCard className="e__brand">
                         <IssueBrandClass>E brand</IssueBrandClass>
                         <IssueBrandImg src={require('../../img/i4.png').default} />
+                        <IssueDecorImg5 src={require('../../img/news-object-05.png').default}/>
                     </IssueCard>
                 </IssueContent>
             </IssueContainer>
