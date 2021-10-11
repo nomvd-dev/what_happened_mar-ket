@@ -8,6 +8,9 @@ export const IssueContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media screen and (max-width: 1366px){
+        padding: 100px 0;
+    }
     @media screen and (max-width: 414px){
         padding: 50px 20px;
         padding-bottom: 100px;
@@ -21,6 +24,10 @@ export const IssueH = styled.h2`
     text-align: center;
     margin-bottom: 40px;
     letter-spacing: 5px;
+    @media screen and (max-width: 1366px){
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
     @media screen and (max-width: 414px){
         font-size: 25px;
         letter-spacing: 2px;
@@ -35,6 +42,9 @@ export const IssueP = styled.p`
     text-align: center;
     margin: auto;
     margin-bottom: 60px;
+    @media screen and (max-width: 414px){
+        font-size: 16px;
+    }
     @media screen and (max-width: 414px){
         font-size: 12px;
         margin-bottom: 40px;
@@ -65,6 +75,10 @@ export const IssueDecorImg3 = styled.img`
     right: -20px;
     bottom: -90px;
     z-index: 10;
+    @media screen and (max-width: 1366px){
+        width: 40%;
+        bottom: -60px;
+    }
     @media screen and (max-width: 414px){
         width: 30%;
         right: -20px;
@@ -76,6 +90,9 @@ export const IssueDecorImg4 = styled.img`
     position: absolute;
     top: -30px;
     left: 20px;
+    @media screen and (max-width: 1366px){
+        width: 40%;
+    }
     @media screen and (max-width: 414px){
         width: 30%;
         top: -20px;
@@ -86,6 +103,10 @@ export const IssueDecorImg5 = styled.img`
     position: absolute;
     left: -100px;
     bottom: -50px;
+    @media screen and (max-width: 1366px){
+        width: 40%;
+        left: -80px;
+    }
     @media screen and (max-width: 414px){
         width: 30%;
         left: 0;
@@ -100,6 +121,9 @@ export const IssueContent = styled.div`
     margin-top: 150px;
     .b__brand, .e__brand, .whpn{
         position: relative;
+    }
+    @media screen and (max-width: 1366px){
+        margin-top: 100px;
     }
     @media screen and (max-width: 414px){
         grid-template-columns: 100%;
@@ -129,9 +153,15 @@ export const IssueWhpnH = styled.h3`
     margin-bottom: 50px;
     vertical-align:middle;
     text-align: center;
+    @media screen and (max-width: 1366px){
+        font-size: 40px;
+    }
 `
 export const IssueWhpnImg = styled.img`
     display: block;
+    @media screen and (max-width: 1366px){
+        width: 50%;
+    }
     @media screen and (max-width: 414px){
         transform: rotate(90deg);
     }
@@ -152,6 +182,10 @@ export const IssueBrandClass = styled.h3`
     padding: 30px 0;
     font-size: 32px;
     font-weight: 800;
+    @media screen and (max-width: 1366px){
+        font-size: 25px;
+        padding: 20px 0;
+    }
 `
 export const IssueBrandImg = styled.img`
     display: block;

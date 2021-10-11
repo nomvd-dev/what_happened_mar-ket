@@ -49,7 +49,7 @@ export const NavMenu = styled.ul`
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 300;
-    @media screen and (max-width:1280px){
+    @media screen and (max-width: 1366px){
         width: 50%;
     }
     @media screen and (max-width:480px){

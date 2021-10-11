@@ -7,10 +7,10 @@ export const BestProductContainer = styled.div`
     background-size: cover;
     background-repeat: repeat;
     width: 100%;
-    height: 1080px;
+    height: 100vh;
     padding: 0 160px;
-    padding-top: 120px;
-    @media screen and (max-width: 480px){
+    padding-top: 60px;
+    @media screen and (max-width: 414px){
         width: 100%;
         height: 100%;
         padding: 50px 20px;
@@ -27,7 +27,11 @@ export const BestProductH = styled.h2`
     color: var(--tertiary-color);
     text-align: center;
     letter-spacing: 5px;
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 1366px){
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    @media screen and (max-width: 414px){
         font-size: 25px;
         letter-spacing: 2px;
     }
@@ -40,7 +44,10 @@ export const BestProductP = styled.p`
     margin-top: 50px;
     margin-bottom: 75px;
     text-align: center;
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 1366px){
+        font-size: 16px;
+    }
+    @media screen and (max-width: 414px){
         width: 100%;
         font-size: 12px;
         line-height: 1.5;
@@ -54,7 +61,7 @@ export const BestList = styled.div`
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 414px){
         height: 100%;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
@@ -64,7 +71,7 @@ export const BestList = styled.div`
 export const BestProductCard = styled.div`
     width: 100%;
     position: relative;
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 414px){
         width: 100%;
         margin: auto;
         margin-top: 100px;
@@ -93,8 +100,10 @@ export const BestProductLink = styled.div`
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 1366px){
         font-size: 16px;
+        width: 80%;
+        left: 10%;
     }
     @media screen and (max-width: 414px){
         font-size: 16px;
@@ -113,7 +122,7 @@ export const BestProductBtn = styled.button`
     font-weight: 800;
     font-size: 20px;
     cursor: pointer;
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 414px){
         font-size: 16px;
     }
     @media screen and (max-width: 414px){

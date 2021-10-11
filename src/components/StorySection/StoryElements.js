@@ -26,6 +26,11 @@ export const StoryH = styled.h2`
     text-align: center;
     margin-bottom: 40px;
     letter-spacing: 5px;
+    @media screen and (max-width: 1366px){
+        font-size: 40px;
+        letter-spacing: 2px;
+        /* margin-bottom: 20px; */
+    }
     @media screen and (max-width: 414px){
         font-size: 25px;
         letter-spacing: 2px;
@@ -40,6 +45,9 @@ export const StoryP = styled.p`
     margin: auto;
     margin-bottom: 80px;
     width: 40%;
+    @media screen and (max-width: 1366px){
+        font-size: 16px;
+    }
     @media screen and (max-width: 414px){
         font-size: 12px;
         width: 80%;
@@ -53,6 +61,9 @@ export const StoryContent = styled.div`
     width: 65%;
     height: 100%;
     margin: auto;
+    @media screen and (max-width: 1366px){
+        width: 80%;
+    }
     @media screen and (max-width: 414px){
         display: none;
         width: 100%;
@@ -83,6 +94,9 @@ export const StoryTitle = styled.h3`
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 800;
+    @media screen and (max-width: 1366px){
+        font-size: 18px;
+    }
     @media screen and (max-width: 414px){
         font-size: 16px;
         padding-top: 10px;
@@ -97,6 +111,10 @@ export const StoryDetail = styled.p`
 font-family: var(--secondary-font);
     font-size: 16px;
     margin: 40px 0;
+    @media screen and (max-width: 1366px){
+        font-size: 14px;
+        margin: 20px 0;
+    }
     @media screen and (max-width: 414px){
         font-size: 12px;
         margin: 20px 0;
@@ -115,6 +133,11 @@ export const StoryDecorImg1 = styled.img`
     position: absolute;
     top: 210px;
     left: 170px;
+    @media screen and (max-width: 1366px){
+        width: 10%;
+        top: 150px;
+        left: 150px;
+    }
     @media screen and (max-width: 414px){
         width: 20%;
         top: 200px;
@@ -128,6 +151,11 @@ export const StoryDecorImg2 = styled.img`
     position: absolute;
     right: 250px;
     top: 50px;
+    @media screen and (max-width: 1366px){
+        width: 10%;
+        right: 250px;
+        top: 50px;
+    }
     @media screen and (max-width: 414px){
         display: none;
     }
@@ -136,6 +164,11 @@ export const StoryDecorImg3 = styled.img`
     position: absolute;
     right: 170px;
     top: 80px;
+    @media screen and (max-width: 1366px){
+        width: 10%;
+        right: 150px;
+        top: 80px;
+    }
     @media screen and (max-width: 414px){
         width: 20%;
         right: 10px;
@@ -146,6 +179,11 @@ export const StoryDecorImg4 = styled.img`
     position: absolute;
     right: -80px;
     bottom: 300px;
+    @media screen and (max-width: 1366px){
+        width: 15%;
+        right: -50px;
+        bottom: 300px;
+    }
     @media screen and (max-width: 414px){
         width: 40%;
         bottom: 110px;
@@ -156,6 +194,11 @@ export const StoryDecorImg5 = styled.img`
     position: absolute;
     right: -30px;
     bottom: 180px;
+    @media screen and (max-width: 1366px){
+        width: 15%;
+        right: -30px;
+        bottom: 180px;
+    }
     @media screen and (max-width: 414px){
         width: 40%;
         bottom: 50px;
@@ -172,11 +215,17 @@ export const BookDecor = styled.div`
     }
 `
 export const StoryDecorImg6 = styled.img`
+    @media screen and (max-width: 1366px){
+        width: 20%;
+    }
     @media screen and (max-width: 414px){
         width: 50%;
     }
 `
 export const StoryDecorImg7 = styled.img`
+    @media screen and (max-width: 1366px){
+        width: 20%;
+    }
     @media screen and (max-width: 414px){
         width: 20%;
         display: none;
