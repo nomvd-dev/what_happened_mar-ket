@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+*** Truy cập vào đường dẫn để xem trực tiếp giao diện: https://nomvd-dev.github.io/what_happened_mar-ket/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[ TEST Mission 1]
 
-## Available Scripts
+Font cần thiết đã được thêm vào file App.css.
 
-In the project directory, you can run:
+Font theme được cài đặt để có thể thay đổi toàn bộ font chữ của trang web trong 1 lần.
 
-### `npm start`
+Theme colors cũng đã được cài đặt trong file App.css.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[ TEST Mission 2]
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+*** Giao diện trân mobile được responsive dựa theo 5 kích thước màn hình mobile phổ biến nhất được tham khảo theo trang web https://www.hobo-web.co.uk/best-screen-size/. Do vậy với những màn hình có chiều dài lớn hơn có thể khiến giao diện không như mong muốn.
 
-### `npm test`
+Trong đó thì 6 kích thước phổ biến gồm:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+360×640 – 9.25%
+414×896 – 7.29%
+360×800 – 7.13%
+360×780 – 5.43%
+375×667 – 5.25%
+360×780 – 4.76%
+(Số liệu thống kê trên toàn thế giới từ tháng 8/2020 - tháng 8/2021)
