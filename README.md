@@ -1,4 +1,4 @@
-*** Thời gian hoàn thành bài test: 20h
+*** Thời gian hoàn thành bài test: 26h
 
 *** Truy cập vào đường dẫn để xem trực tiếp giao diện: https://nomvd-dev.github.io/what_happened_mar-ket/
 
